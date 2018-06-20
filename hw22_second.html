@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			background: #000;
+		}
+		body{
+			font-family: Verdana, Tahoma, sans-serif;
+		    color: #fff;
+		    font-size: 18px;
+		    width: 100%;
+		}
+		.conteiner{
+			width: 1200px;
+			margin: 0 auto;
+		}
+		header{
+			width: 100%;
+			margin: 0 auto;
+			height: 170px;
+			text-align: center;
+			padding-top: 20px;
+			display: inline-flex;
+			justify-content: center;
+		}
+		.logo img{
+			height: 145px;
+		}
+		nav{
+
+			padding: 30px 30px;
+		}
+		nav a{
+			color: #fff;
+			text-transform: uppercase;
+			text-decoration: none;
+			padding: 10px;
+			text-align: left;
+			font-weight: bold;
+		}
+		nav a:hover{
+			border: 2px solid #fff;
+			border-radius: 10px;
+		}
+		.quests{
+			display: inline-flex;
+		    flex-wrap: wrap;
+		    justify-content: space-around;
+		}
+		.qq{
+			width: 260px;
+		    height: 366px;
+		    border: 3px solid #fff;
+		    display: inline-block;
+		    vertical-align: top;
+		    border-radius: 30px;
+		    margin-bottom: 30px;
+		   	overflow: hidden;
+			background: #fff;
+			z-index: 1;
+			position: relative;
+		}
+		.qq::before{
+			content: "";
+			position: absolute;
+			width: 260px;
+		    height: 366px;
+			top: 0;
+			left: 0;
+			z-index: -1;
+			background: #fff url("images/qq.jpg") no-repeat;
+		}
+		.qq.q2::before{
+			background: #fff url("images/qq2.jpg") no-repeat;
+			    background-size: cover;
+		}
+		.qq.q3::before{
+			background: #fff url("images/qq3.jpg") no-repeat;
+			    background-size: cover;
+		}
+		.qq.q4::before{
+			background: #fff url("images/qq4.jpg") no-repeat;
+			    background-size: cover;
+		}
+		.qq.q5::before{
+			background: #fff url("images/qq5.jpg") no-repeat;
+			    background-size: cover;
+		}
+		.qq.q6::before{
+			background: #fff url("images/qq6.jpg") no-repeat;
+			    background-size: cover;
+		}
+		.qq.q7::before{
+			background: #fff url("images/qq7.jpg") no-repeat;
+			    background-size: cover;
+		}
+		.qq.q8::before{
+			background: #fff url("images/qq8.jpg") no-repeat;
+			    background-size: cover;
+		}
+		.qq h3{
+			color: #fff;
+			z-index: 2;
+			position: absolute;
+			bottom: 20px;
+			padding: 10px;
+			background: transparent;
+			text-transform: uppercase;
+		}
+		.qq p{
+			color: #fff;
+			position: absolute;
+			bottom: 0;
+			padding: 10px;
+			background: transparent;
+			text-transform: uppercase;
+			font-size: 16px;
+		}
+		.numbers{
+			display: inline-flex;
+		}
+		.numbers ul{
+			display: inline-flex;
+			list-style-type: none;
+		}
+		.numbers ul li{
+			display: inline-flex;
+			padding: 0 10px 10px 10px;
+		}
+		.numbers ul li a{
+			color: #fff;
+			text-decoration: none;
+		}
+		.numbers ul li:hover{
+			transform: scale(2);
+			border: 2px solid #fff;
+			border-radius: 10px;
+		}
+	</style>	
+</head>
+<body>
+	<div class="conteiner">
+		<header>
+			<div class="logo"><a href="hw22.html"><img src="images/logo.jpg" alt=""></a></div>
+			<div class="menu">
+				<nav>
+					<div>
+						<a href="#">днепр</a>
+						<a href="#">квесты</a>
+						<a href="#">отзывы</a>
+						<a href="#">галерея</a>
+						<a href="#">франшиза</a>
+						<a href="#">о нас</a>
+						<a href="#">контакты</a>
+					</div>
+				</nav>
+				<div class="numbers">
+					<ul>
+						<li><a href="">098-64-67-111</a></li>
+						<li><a href="">098-64-67-111</a></li>
+						<li><a href="">098-64-67-111</a></li>
+					</ul>
+				</div>
+				<hr>
+			</div>
+		</header>
+		<div class="quests">
+				<a href="#">
+					<div class="qq">
+						<h3>quests name</h3>
+						<p>2-4 people</p>
+					</div>
+				</a>
+								<a href="#">
+					<div class="qq q2">
+						<h3>quests name</h3>
+						<p>2-4 people</p>
+					</div>
+				</a>
+								<a href="#">
+					<div class="qq q3">
+						<h3>quests name</h3>
+						<p>2-4 people</p>
+					</div>
+				</a>
+								<a href="#">
+					<div class="qq q4">
+						<h3>quests name</h3>
+						<p>2-4 people</p>
+					</div>
+				</a>
+								<a href="#">
+					<div class="qq q5">
+						<h3>quests name</h3>
+						<p>2-4 people</p>
+					</div>
+				</a>
+								<a href="#">
+					<div class="qq q6">
+						<h3>quests name</h3>
+						<p>2-4 people</p>
+					</div>
+				</a>
+								<a href="#">
+					<div class="qq q7">
+						<h3>quests name</h3>
+						<p>2-4 people</p>
+					</div>
+				</a>
+								<a href="#">
+					<div class="qq q8">
+						<h3>quests name</h3>
+						<p>2-4 people</p>
+					</div>
+				</a>
+
+			</div>
+		</section>
+	</div>
+</body>
+</html>
